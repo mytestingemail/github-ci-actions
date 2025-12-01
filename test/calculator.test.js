@@ -80,6 +80,16 @@ describe('Calculator', () => {
     //     })
     //   })
 
+    describe('square() method', () => {
+        test('squares positive numbers correctly', () => {
+            expect(calculator.square(5)).toBe(25);
+        });
+
+        test('squares negative numbers correctly', () => {
+            expect(calculator.square(-4)).toBe(16);
+        });
+    });
+
     describe('factorial() method', () => {
         test('calculates factorial correctly', () => {
             expect(calculator.factorial(5)).toBe(120);

@@ -59,6 +59,16 @@ class Calculator {
     //     return Number.isInteger(num);
     // }
 
+    // Add this new method to the Calculator class
+    /**
+     * Squares a number
+     * @param {number} num - Number to square
+     * @returns {number} Square of the number
+     */
+    square(num) {
+        return num * num;
+    }
+
     /**
      * Calculates the factorial of a number
      * @param {number} num - Non-negative integer
