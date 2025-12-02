@@ -1,5 +1,4 @@
 // Simple Calculator Module for CI Demo
-// This is our "production" code
 
 class Calculator {
     /**
